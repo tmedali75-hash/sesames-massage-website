@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sésames — Massage & Hijama à Sousse | Centre de bien-être</title>
+<meta name="description" content="Sésames, centre de massage et de hijama à Sahloul, Sousse. Massages relaxants, thérapeutiques, sportifs et hijama traditionnelle dans un cadre premium et apaisant.">
+<meta name="keywords" content="massage Sousse, hijama Sousse, centre de bien-être Sousse, Sésames, Sahloul">
+<link rel="icon" href="assets/logo-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ================= BARRE DE PROGRESSION DE SCROLL ================= -->
+<div class="scroll-progress"><span class="js-scroll-bar"></span></div>
+
+<!-- ================= NAVIGATION ================= -->
+<header class="nav js-nav">
+  <div class="container">
+    <a href="#accueil" class="brand">
+      <img src="assets/logo-icon.png" alt="Logo Sésames" class="js-logo">
+      <span class="brand-name js-nom">Sésames</span>
+    </a>
+    <nav class="nav-links js-nav-links">
+      <a href="#accueil">Accueil</a>
+      <a href="#apropos">À propos</a>
+      <a href="#services">Services</a>
+      <a href="#bienfaits">Bienfaits</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#avis">Avis</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="btn btn-primary btn-sm js-open-resa">Réserver</button>
+      <button class="nav-toggle js-nav-toggle" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section id="accueil" class="hero">
+  <div class="hero-blobs" aria-hidden="true">
+    <span class="blob blob-1"></span>
+    <span class="blob blob-2"></span>
+    <span class="blob blob-3"></span>
+  </div>
+  <div class="container">
+    <div class="hero-text">
+      <span class="eyebrow hero-eyebrow">Centre de massage & hijama · Sahloul, Sousse</span>
+      <h1>Ouvrez la porte d'un <br>bien-être sur mesure</h1>
+      <p class="tagline js-slogan">L'art du bien-être, ouvert pour vous</p>
+      <p class="lead">Sésames vous accueille dans un cadre élégant et apaisant pour des soins de massage et de hijama pensés avec précision, par des mains expertes et attentives.</p>
+      <div class="hero-cta">
+        <button class="btn btn-primary js-open-resa">Réserver maintenant</button>
+        <a class="btn btn-outline js-tel" href="tel:+21673000000">Appeler le centre</a>
+        <a class="btn btn-ghost js-wa-link" href="#" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <svg class="seed-ring" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <g fill="none" stroke="var(--teal-bright)" stroke-width="1.4" opacity="0.55">
+          <circle cx="200" cy="200" r="188"/>
+        </g>
+        <g fill="var(--teal-bright)" opacity="0.7">
+          <!-- graines réparties en cercle -->
+          <g id="seeds"></g>
+        </g>
+      </svg>
+      <div class="hero-image-wrap hero-float">
+        <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=900&auto=format&fit=crop" alt="Ambiance de massage relaxant chez Sésames">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= À PROPOS ================= -->
+<section id="apropos" class="section">
+  <div class="container about-grid">
+    <div class="about-portrait reveal">
+      <img src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?q=80&w=800&auto=format&fit=crop" alt="Le centre Sésames">
+      <div class="founder-tag">
+        <strong class="js-fondateur-nom">Firas Selmi</strong>
+        <span class="js-fondateur-titre">Fondateur & Directeur du centre</span>
+      </div>
+    </div>
+    <div class="about-text reveal reveal-delay-1">
+      <span class="eyebrow">À propos de Sésames</span>
+      <h2 class="js-apropos-titre">Bienvenue chez Sésames</h2>
+      <p class="js-apropos-texte"></p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CHIFFRES CLÉS ================= -->
+<section class="stats-section">
+  <div class="container">
+    <div class="stats-grid js-stats-grid"></div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section id="services" class="section section-alt">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Nos prestations</span>
+      <h2>Des soins pensés pour chaque besoin</h2>
+      <p>Massages et hijama, pratiqués par des professionnels formés, pour un résultat visible dès la première séance.</p>
+    </div>
+    <div class="tabs reveal">
+      <button class="tab-btn active" data-filter="all">Tous les soins</button>
+      <button class="tab-btn" data-filter="massage">Massages</button>
+      <button class="tab-btn" data-filter="hijama">Hijama</button>
+    </div>
+    <div class="services-grid js-services-grid"></div>
+  </div>
+</section>
+
+<!-- ================= BIENFAITS ================= -->
+<section id="bienfaits" class="section">
+  <div class="container">
+    <div class="section-head center reveal" style="margin-left:auto;margin-right:auto;">
+      <span class="eyebrow">Pourquoi en profiter</span>
+      <h2>Les bienfaits du massage et de la hijama</h2>
+      <p>Des effets reconnus sur le corps comme sur l'esprit, pour un équilibre durable.</p>
+    </div>
+    <div class="benefits-grid js-benefits-grid"></div>
+  </div>
+</section>
+
+<!-- ================= GALERIE ================= -->
+<section id="galerie" class="section section-alt">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Galerie</span>
+      <h2>Un cadre pensé pour la détente</h2>
+      <p>Découvrez nos espaces de soins, cliquez sur une photo pour l'agrandir.</p>
+    </div>
+    <div class="gallery-grid js-gallery-grid"></div>
+  </div>
+</section>
+
+<!-- ================= TÉMOIGNAGES ================= -->
+<section id="avis" class="section">
+  <div class="container">
+    <div class="section-head center reveal" style="margin-left:auto;margin-right:auto;">
+      <span class="eyebrow">Ils nous font confiance</span>
+      <h2>Ce que disent nos clients</h2>
+    </div>
+    <div class="testimonials-grid js-testimonials-grid"></div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section section-alt">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Contact & réservation</span>
+      <h2>Prenons rendez-vous</h2>
+      <p>Contactez-nous ou envoyez directement votre demande de réservation.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info-card reveal">
+        <h3>Informations</h3>
+        <div class="contact-info-item">
+          <span class="ico">📍</span>
+          <span class="js-adresse"></span>
+        </div>
+        <div class="contact-info-item">
+          <span class="ico">📞</span>
+          <a class="js-tel" href="tel:">—</a>
+        </div>
+        <div class="contact-info-item">
+          <span class="ico">🟢</span>
+          <a class="js-wa-link" href="#" target="_blank" rel="noopener">Discuter sur WhatsApp</a>
+        </div>
+        <ul class="js-horaires" style="display:grid;gap:8px;margin-top:18px;font-size:.9rem;"></ul>
+        <div class="js-reseaux" style="display:flex;gap:16px;margin-top:20px;"></div>
+        <div class="map-embed">
+          <iframe class="js-map" src="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Localisation Sésames"></iframe>
+        </div>
+      </div>
+
+      <form id="contact-form" class="form-card reveal reveal-delay-1" novalidate>
+        <h3>Nous écrire</h3>
+        <div class="field">
+          <label for="contact-nom">Nom complet</label>
+          <input id="contact-nom" type="text" placeholder="Votre nom">
+          <span class="error-msg">Merci d'indiquer votre nom.</span>
+        </div>
+        <div class="field">
+          <label for="contact-email">Adresse e-mail</label>
+          <input id="contact-email" type="email" placeholder="vous@email.com">
+          <span class="error-msg">Merci d'indiquer une adresse e-mail valide.</span>
+        </div>
+        <div class="field">
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" rows="4" placeholder="Votre message"></textarea>
+          <span class="error-msg">Merci d'écrire votre message.</span>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;">Envoyer le message</button>
+        <div id="contact-msg" class="form-msg"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container">
+    <div>
+      <div class="footer-brand">
+        <img src="assets/logo-icon.png" alt="Logo Sésames" class="js-logo">
+        <span class="footer-brand-name js-nom">Sésames</span>
+      </div>
+      <p>Centre de massage et de bien-être à Sahloul, Sousse. Massages et hijama dans un cadre élégant et apaisant.</p>
+    </div>
+    <div>
+      <h4>Navigation</h4>
+      <p><a href="#apropos">À propos</a></p>
+      <p><a href="#services">Services</a></p>
+      <p><a href="#galerie">Galerie</a></p>
+      <p><a href="#contact">Contact</a></p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p class="js-adresse"></p>
+      <p class="js-tel"></p>
+      <p><a href="admin.html" style="opacity:.55;">Espace administrateur</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">© <span class="js-annee"></span> Sésames — Tous droits réservés.</div>
+</footer>
+
+<!-- ================= BOUTON WHATSAPP FLOTTANT ================= -->
+<a class="whatsapp-float js-wa-link" href="#" target="_blank" rel="noopener" aria-label="Contacter sur WhatsApp">
+  <svg width="30" height="30" viewBox="0 0 32 32" fill="white"><path d="M16.001 3C9.373 3 4 8.373 4 15c0 2.386.696 4.607 1.897 6.48L4 29l7.72-1.86A11.93 11.93 0 0 0 16 27c6.628 0 12-5.373 12-12S22.629 3 16.001 3zm0 21.6c-1.98 0-3.83-.55-5.41-1.5l-.388-.23-4.58 1.103 1.12-4.46-.252-.4A9.56 9.56 0 0 1 5.4 15c0-5.85 4.75-10.6 10.6-10.6S26.6 9.15 26.6 15 21.85 24.6 16 24.6zm5.86-7.94c-.32-.16-1.9-.94-2.2-1.05-.296-.108-.51-.16-.726.16-.214.32-.83 1.05-1.018 1.266-.188.214-.376.24-.696.08-.32-.16-1.352-.498-2.575-1.588-.952-.85-1.594-1.9-1.782-2.22-.188-.32-.02-.492.14-.652.144-.144.32-.376.48-.564.16-.188.214-.32.32-.536.108-.214.054-.402-.026-.564-.08-.16-.726-1.75-.994-2.396-.262-.628-.53-.542-.726-.552l-.618-.01c-.214 0-.564.08-.86.4-.296.32-1.13 1.104-1.13 2.692 0 1.588 1.156 3.122 1.316 3.338.16.214 2.276 3.476 5.514 4.874.77.332 1.37.53 1.838.678.772.246 1.474.212 2.03.128.62-.092 1.9-.776 2.168-1.526.268-.75.268-1.392.188-1.526-.08-.134-.294-.214-.614-.374z"/></svg>
+</a>
+
+<!-- ================= LIGHTBOX GALERIE ================= -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightbox-close" aria-label="Fermer">×</button>
+  <img id="lightbox-img" src="" alt="Photo agrandie">
+</div>
+
+<!-- ================= MODAL RÉSERVATION ================= -->
+<div class="modal-overlay" id="resa-modal">
+  <div class="modal-box">
+    <button class="modal-close" id="resa-close" aria-label="Fermer">×</button>
+    <span class="eyebrow">Réservation</span>
+    <h3>Réservez votre séance</h3>
+    <form id="resa-form" novalidate>
+      <div class="field">
+        <label for="resa-nom">Nom complet</label>
+        <input id="resa-nom" type="text" placeholder="Votre nom">
+        <span class="error-msg">Merci d'indiquer votre nom.</span>
+      </div>
+      <div class="form-row">
+        <div class="field">
+          <label for="resa-tel">Téléphone</label>
+          <input id="resa-tel" type="tel" placeholder="+216 ...">
+          <span class="error-msg">Numéro invalide.</span>
+        </div>
+        <div class="field">
+          <label for="resa-date">Date souhaitée</label>
+          <input id="resa-date" type="date">
+          <span class="error-msg">Merci de choisir une date.</span>
+        </div>
+      </div>
+      <div class="field">
+        <label for="resa-service">Soin souhaité</label>
+        <select id="resa-service"></select>
+        <span class="error-msg">Merci de choisir un soin.</span>
+      </div>
+      <div class="field">
+        <label for="resa-message">Message (optionnel)</label>
+        <textarea id="resa-message" rows="3" placeholder="Une précision à ajouter ?"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary" style="width:100%;">Confirmer la demande</button>
+      <div id="resa-msg" class="form-msg"></div>
+    </form>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="main.js"></script>
+<script>
+  // Génère les petites graines du motif décoratif de l'anneau (signature visuelle)
+  (function seeds(){
+    const g = document.getElementById("seeds");
+    if(!g) return;
+    const total = 16, r = 188, cx = 200, cy = 200;
+    let html = "";
+    for(let i=0;i<total;i++){
+      const angle = (i/total) * Math.PI * 2;
+      const x = cx + r*Math.cos(angle);
+      const y = cy + r*Math.sin(angle);
+      const rot = (angle*180/Math.PI)+90;
+      html += `<ellipse cx="${x}" cy="${y}" rx="5" ry="10" transform="rotate(${rot} ${x} ${y})"/>`;
+    }
+    g.innerHTML = html;
+  })();
+</script>
+</body>
+</html>
