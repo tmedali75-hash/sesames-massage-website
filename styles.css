@@ -136,6 +136,34 @@ h1,h2,h3,h4{
 .nav-actions{ display:flex; align-items:center; gap:14px; }
 .nav-toggle{ display:none; background:none; border:none; font-size:1.6rem; color:var(--teal-deep); }
 
+/* Admin link in navbar */
+.admin-link-nav{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  font-size:1.3rem;
+  transition:all .3s var(--ease);
+  opacity:.6;
+  color:var(--teal-deep);
+  background:transparent;
+  border:1px solid transparent;
+}
+.admin-link-nav:hover{
+  opacity:1;
+  background:rgba(33,182,162,.1);
+  border-color:var(--teal-bright);
+  transform:scale(1.1);
+}
+.nav.scrolled .admin-link-nav{
+  opacity:.5;
+}
+.nav.scrolled .admin-link-nav:hover{
+  opacity:1;
+}
+
 @media (max-width:900px){
   .nav-links{
     position:fixed; inset:0 0 0 auto; height:100vh; width:min(78vw,320px);
@@ -145,6 +173,11 @@ h1,h2,h3,h4{
   }
   .nav-links.open{ transform:translateX(0); }
   .nav-toggle{ display:block; }
+  .admin-link-nav{
+    width:36px;
+    height:36px;
+    font-size:1.1rem;
+  }
 }
 
 /* ---------- Hero ---------- */
@@ -393,8 +426,29 @@ h1,h2,h3,h4{
 .footer h4{ color:var(--cream); font-size:1rem; margin-bottom:16px; }
 .footer p, .footer a{ color:#C9D2CF; font-size:.9rem; }
 .footer a:hover{ color:var(--teal-bright); }
+
+/* Admin link in footer */
+.admin-link-footer{
+  display:inline-block;
+  padding:6px 12px;
+  border-radius:var(--radius-sm);
+  transition:all .3s var(--ease);
+  opacity:.85;
+  color:var(--teal-bright);
+  font-weight:500;
+  border:1px solid transparent;
+}
+.admin-link-footer:hover{
+  opacity:1;
+  background:rgba(33,182,162,.15);
+  border-color:var(--teal-bright);
+}
+
 .footer-bottom{ text-align:center; margin-top:40px; padding-top:20px; border-top:1px solid rgba(255,255,255,.1); font-size:.8rem; color:#9DAAA6; }
-@media (max-width:700px){ .footer .container{ grid-template-columns:1fr; } }
+@media (max-width:700px){ 
+  .footer .container{ grid-template-columns:1fr; }
+  .admin-link-nav{ display:none; }
+}
 
 /* ---------- WhatsApp flottant ---------- */
 .whatsapp-float-wrap{
